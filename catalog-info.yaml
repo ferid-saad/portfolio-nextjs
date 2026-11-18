@@ -1,0 +1,17 @@
+﻿apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: portfolio-nextjs
+  description: Portfolio professionnel développé avec Next.js
+  tags:
+    - nextjs
+    - docker
+    - devops
+    - portfolio
+
+spec:
+  type: website
+  lifecycle: experimental
+  owner: team-payments
+
